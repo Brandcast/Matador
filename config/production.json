@@ -2,7 +2,10 @@
     "port": 1337,
     "redis": {
         "host": "localhost",
-        "port": 6379
+        "port": 6379,
+        "options" : {
+            "db" : 2
+        }
     },
     "errorPages": {
         "404": "errors/404",
